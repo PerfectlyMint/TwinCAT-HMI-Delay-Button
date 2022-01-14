@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1738
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{3B740506-4966-4147-AB1F-357FE08946EA}") = "TwinCAT-HMI-Delay-Button", "TwinCAT-HMI-Delay-Button.hmiextproj", "{43FA9E27-317B-4F50-896C-8105C4CC46F3}"
+EndProject
+Project("{FE7A1B72-C5B7-4D7C-BB7D-76384D4DE8E1}") = "Test", "..\Test\Test.hmiproj", "{7A156DB5-593F-47B3-B628-9790D37E80A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|TwinCAT HMI = Debug|TwinCAT HMI
+		Release|TwinCAT HMI = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43FA9E27-317B-4F50-896C-8105C4CC46F3}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{43FA9E27-317B-4F50-896C-8105C4CC46F3}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{43FA9E27-317B-4F50-896C-8105C4CC46F3}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{43FA9E27-317B-4F50-896C-8105C4CC46F3}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+		{7A156DB5-593F-47B3-B628-9790D37E80A5}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{7A156DB5-593F-47B3-B628-9790D37E80A5}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{7A156DB5-593F-47B3-B628-9790D37E80A5}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{7A156DB5-593F-47B3-B628-9790D37E80A5}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {252FECA3-A9ED-45AA-B13D-4E80A721E6A6}
+	EndGlobalSection
+EndGlobal

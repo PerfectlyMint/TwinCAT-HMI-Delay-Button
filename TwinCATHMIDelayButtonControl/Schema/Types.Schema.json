@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "definitions": {
+    "TcHmi.Controls.TwinCAT_HMI_Delay_Button.TwinCATHMIDelayButtonControl": {
+      "type": "object",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkControlType": "TwinCATHMIDelayButtonControl",
+      "frameworkControlNamespace": "TcHmi.Controls.TwinCAT_HMI_Delay_Button"
+    }
+  }
+}

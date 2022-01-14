@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TwinCAT-HMI-Delay-Button</id>
+    <version>1.0.0</version>
+    <description>-.-</description>
+    <authors>Perfectly Mint</authors>
+    <title>Delay Button</title>
+    <owners>Perfectly Mint</owners>
+    <projectUrl>https://github.com/PerfectlyMint/TwinCAT-HMI-Delay-Button</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2022</copyright>
+    <tags>TwinCAT HMI</tags>
+    <license type="expression">MIT</license>
+    <icon>images/logo.png</icon>
+    <dependencies>
+      <group targetFramework="native1.12-tchmi">
+        <dependency id="Beckhoff.TwinCAT.HMI.Framework" version="12.752.0" />
+        <dependency id="Beckhoff.TwinCAT.HMI.Controls" version="12.752.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="**\*" target="runtimes\native1.12-tchmi\" exclude=".eslintrc.json;**\*.nuspec;**\*.tpl.json;**\*.hmi*proj;**\~*;**\*.tmp;**\tmp*;**\*.user;**\tsconfig.json;**\*.log;**\*.bak;**\obj\**\*;packages.config;packages.xsd;.hmiframework\**\*;.hmipkgs\**\*;.git;.gitignore;.gitattributes" />
+    <file src="images\logo.png" target="images\" />
+  </files>
+</package>
