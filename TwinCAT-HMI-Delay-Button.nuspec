@@ -22,7 +22,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="**\*" target="runtimes\native1.12-tchmi\" exclude=".eslintrc.json;**\*.nuspec;**\*.tpl.json;**\*.hmi*proj;**\~*;**\*.tmp;**\tmp*;**\*.user;**\tsconfig.json;**\*.log;**\*.bak;**\obj\**\*;packages.config;packages.xsd;.hmiframework\**\*;.hmipkgs\**\*;.git;.gitignore;.gitattributes" />
+    <file src="**\*" target="runtimes\native1.12-tchmi\" exclude=".eslintrc.json;**\*.nuspec;**\*.tpl.json;**\*.hmi*proj;**\~*;**\*.tmp;**\tmp*;**\*.user;**\tsconfig.json;**\*.log;**\*.bak;**\obj\**\*;packages.config;packages.xsd;.hmiframework\**\*;.hmipkgs\**\*;.git;.gitignore;.gitattributes;packages\**\*.*" />
     <file src="images\logo.png" target="images\" />
   </files>
 </package>
